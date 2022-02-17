@@ -48,5 +48,5 @@ public class ContadorDeAnagramas {
     }
     /* Obs: No primeiro exemplo  passado na questão 3 do Desafio (palavra "ovo") acredito que a saída esteja errada ("3")
      ou talvez eu não tenha entendido direito a questão, já que os pares de anagramas são [o, o] e [ov, vo],
-     a saída correta não seria "2"?.  */
+     a saída correta não seria "2"?  */
 }

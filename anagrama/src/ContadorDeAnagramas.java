@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 /**
  * Desafio: Dada uma string qualquer, desenvolva um algoritmo que encontre o número de pares de substrings que são anagramas.
+ *
  * The type Contador de anagramas.
  */
 public class ContadorDeAnagramas {
@@ -34,7 +35,6 @@ public class ContadorDeAnagramas {
         System.out.println(paresDeAnagrama);
 //        System.out.println(map); // testando a saída/contagem
     }
-
     /**
      * The entry point of application.
      *
@@ -46,4 +46,7 @@ public class ContadorDeAnagramas {
         String textoDigitado = scan.next();
         contaParesAnagramas(textoDigitado);
     }
+    /* Obs: No primeiro exemplo  passado na questão 3 do Desafio (palavra "ovo") acredito que a saída esteja errada ("3")
+     ou talvez eu não tenha entendido direito a questão, já que os pares de anagramas são [o, o] e [ov, vo],
+     a saída correta não seria "2"?.  */
 }
